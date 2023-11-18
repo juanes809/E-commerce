@@ -1,0 +1,98 @@
+header{
+    height: 12vh;
+    width: 100vw;
+    background-color:darkblue;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+li a:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.carrito{
+    cursor: pointer;
+}
+
+hr{
+    width: 80%;
+    
+    border: 2px solid black;
+}
+
+.cartas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-14{
+    width: 230px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.cartas img{
+    transition: 0.2s ease-in-out;
+}
+
+.cartas img:hover{
+    transform: scale(0.9);
+}
+
+footer{
+    height: 12vh;
+    width: 100vw;
+    background-color:darkblue;
+}
+
+
+.cartasDiseño{
+    width: 9rem;
+    height: 9rem;
+}
+.cartaPopup{
+    display: grid;
+    grid-template-rows: 70% 30%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    row-gap: 5px;
+    height: 8rem;
+}
+
+.h5{
+    display: flex;
+    align-self: start;
+}
+
+
+
